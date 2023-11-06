@@ -1,50 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Chiemena Godswill</title>
-
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
-    <meta property=”og:title” content=” Chiemena Godswill Onyeakazi(Software Developer)” />
-    <meta property=”og:url” content=”https://onyeakazi.github.io” />
-    <meta property=”og:description” content=”A veritable maestro of code, Chiemena Godswill fearlessly tames the complexities of HTML, CSS, JavaScript, and more, forging digital realms that defy imagination. Their meticulously crafted websites not only captivate
-        the eye but also boast the flawless performance and responsiveness that keep users engaged and yearning for more.” />
-    <meta property=”og:image” content=”assets/img/proile-img2.jpg” />
-
-    <!-- Favicons -->
-    <link href="assets/img/banner.png" rel="icon">
-    <link href="assets/img/image.png" rel="apple-touch-icon">
-
-
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
+<?php include "includes/header.php" ?>
+<?php include "includes/db.php" ?>
 
     <!-- ======= Mobile nav toggle button ======= -->
     <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
     <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
-
         <nav id="navbar" class="navbar nav-menu">
             <ul>
                 <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
@@ -56,7 +17,6 @@
             </ul>
         </nav>
         <!-- .nav-menu -->
-
     </header>
     <!-- End Header -->
 
@@ -76,7 +36,6 @@
     <!-- End Hero -->
 
     <main id="main">
-
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
@@ -99,7 +58,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right "></i> <strong>Website:</strong> <span>bit.ly/Chiemena</span></li>
+                                    <li><i class="bi bi-chevron-right "></i> <strong>Website:</strong> <span><a href="https://bit.ly/Chiemena">bit.ly/Chiemena</a></span></li>
                                     <li><i class="bi bi-chevron-right "></i> <strong>Company:</strong> <span>Onyitechs Corp</span></li>
                                     <li><i class="bi bi-chevron-right "></i> <strong>Phone:</strong> <span>+234 810 414 9178</span></li>
                                     <li><i class="bi bi-chevron-right "></i> <strong>City:</strong> <span>Imo state, Nigeria</span></li>
@@ -122,55 +81,6 @@
             </div>
         </section>
         <!-- End About Section -->
-
-        <!-- ======= Facts Section ======= -->
-        <section id="facts" class="facts">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Facts</h2>
-                    <p>Web development is not just about writing code, it's about creating a digital experience that can change people's lives for the better.</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="count-box">
-                            <i class="bi bi-emoji-smile"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-                        <div class="count-box">
-                            <i class="bi bi-journal-richtext"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Projects</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="bi bi-headset"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="5563" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                        <div class="count-box">
-                            <i class="bi bi-award"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Awards</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Facts Section -->
 
         <!-- ======= Skills Section ======= -->
         <section id="skills" class="skills section-bg">
@@ -306,120 +216,28 @@
 
                 <div class="row portfolio-container " data-aos="fade-up " data-aos-delay="200 ">
 
+                <?php
+
+                    $query = "SELECT * FROM projects";
+                    $select_project_query = mysqli_query($connection,$query);
+
+                    while($row = mysqli_fetch_assoc($select_project_query)) {
+                    $project_image = $row['image'];
+                    $project_link = $row['link'];
+                    ?>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app ">
                         <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/portfolio-1.png " class="img-fluid " alt=" ">
+                            <img src="admin/img/<?php echo $project_image ?> " class="img-fluid " alt=" ">
                             <div class="portfolio-info ">
                                 <h4>Click link to view project.</h4>
                                 <div class="portfolio-links ">
-                                    <a href="https://www.linkedin.com/posts/chiemena-godswill-0175b3250_webdevelopment-webdeveloper-webdevelopementinternship-activity-7012121324290469888-tZ1X?utm_source=share&utm_medium=member_desktop " title="Lodge
-                  Website Link "><i class="bx bx-link "></i></a>
+                                    <a href="<?php echo $project_link ?>" title="Link To Project"><i class="bx bx-link "></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/portfolio-2.png " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://www.linkedin.com/posts/chiemena-godswill-0175b3250_webdevelopers-webdevelopment-projects-activity-7011393163051319296-YhAU?utm_source=share&utm_medium=member_desktop " title="Prillo Website Link
-                  "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/portfolio-3.png " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://www.linkedin.com/posts/chiemena-godswill-0175b3250_webdevelopment-webdeveloper-activity-7001236496531767296-xrWb?utm_source=share&utm_medium=member_desktop " title="Digitech Design Website Link
-                  "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/portfolio-4.png " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://bartendingexpert.com/ " title="Loan Calculate web App Link "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/portfolio-5.png " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <div class="portfolio-links ">
-                                        <a href="https://www.linkedin.com/posts/chiemena-godswill-0175b3250_javascript-css-project-activity-7007470356282138624-rpFW?utm_source=share&utm_medium=member_desktop " title="CMS Link "><i class="bx bx-link "></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/github finder/portfolio-details-1.PNG " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://twitter.com/chiemenaOnye/status/1644108004843741184/video/1 " title="App Link "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/guessing web app.PNG " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://twitter.com/chiemenaOnye/status/1634675567206227968/video/1 " title="App Link "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/Spotify.png " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://twitter.com/chiemenaOnye/status/1661329105172721666/photo/ " title="App Link "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/portfolio/estateagency/est1.png" class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4>Click the link to view project</h4>
-                                <div class="portfolio-links ">
-                                    <a href="https://www.linkedin.com/posts/chiemena-godswill-0175b3250_realestate-project-webdevelopement-activity-7082701182137245697-Mu3I?utm_source=share&utm_medium=member_android " title="App Link "><i class="bx bx-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
-
             </div>
         </section>
         <!-- End Portfolio Section -->
@@ -594,55 +412,4 @@
     </main>
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <h3>Chiemena Godswill</h3>
-            <p>Armed with a diverse skill set and a creative mindset, they bring ideas to life through clean code, beautiful design, and seamless functionality, making the internet a better place, one website at a time.</p>
-            <div class="social-links">
-                <a href="https://twitter.com/chiemenaOnye" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://web.facebook.com/Chiemena Godswill Onyeakazi " class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/ " class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/chiemena-godswill-0175b3250/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <div class="copyright">
-                &copy; Copyright <strong><span>Chiemena Godswill</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="https://www.linkedin.com/in/chiemena-godswill-0175b3250/">Onyitechs Corp</a>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
-    <script src="assets/vendor/typed.js/typed.min.js "></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js "></script>
-    <script src="assets/vendor/php-email-form/validate.js "></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js "></script>
-
-</body>
-
-</html>
-<script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
-<script src="assets/vendor/typed.js/typed.min.js "></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js "></script>
-<script src="assets/vendor/php-email-form/validate.js "></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js "></script>
-
-</body>
-
-</html>
+    <?php include "includes/footer.php" ?>
